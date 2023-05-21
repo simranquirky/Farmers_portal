@@ -1,0 +1,81 @@
+
+  .Cart {
+    position: fixed;
+    right: 20px;
+    top: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    z-index: 999;
+    background: rgba( 255, 255, 255, 0.75 );
+  }
+  
+  .Cart h2 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .Cart p {
+    margin: 0;
+    font-size: 16px;
+    
+  }
+  
+  .Cart ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+  }
+  
+  .Cart li {
+    padding: 10px;
+    border: 1px solid goldenrod;
+  }
+  
+  .Cart span {
+    margin: 0 10px;
+  }
+  
+  .Cart button, .Addcart-btn {
+    color: #111;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border:none;
+    padding: 10px;
+    margin-left: 5px;
+    background: rgba( 255, 255, 255, 0.75 );
+  }
+  
+  .Cart button:hover,.Addcart-btn:hover {
+    background-color: goldenrod;
+  }
+  
+  .Cart button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .Cart__subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .Cart__subtotalText {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .Cart__subtotalPrice {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .Remove-btn,.Checkout-btn,.Addcart-btn{
+    margin-left: 10px;
+    position: right;
+  }
+  

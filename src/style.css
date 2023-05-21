@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+/* Global styles */
+body {
+  background: url("https://img.freepik.com/premium-vector/hand-drawn-organic-farming-food-set-doodle-background_140689-94.jpg");
+  font-family: 'Open Sans', sans-serif;
+  background-attachment: fixed;
+  background-position: cover;
+  background-color: rgb(138, 191, 121);
+  background-blend-mode: screen;
+  /* background-blend-mode: darken; */
+}
+
+/* Header */
+.title-class {
+  background:  #94ed94;
+  display: flex;
+  align-items: center; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  flex-wrap: wrap;
+  max-height: 15%;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+
+.title-class>  h1 {
+  margin: 0;
+}
+
+
+/* Search bar */
+
+
+.search {
+    padding: 10px;
+    justify-content: right;
+  }
+  
+  .search-bar {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  }
+  
+  .search-button {
+    height: 50px;
+    border: none;
+    background-color: #0abd5d;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  .search-product {
+    height: 50px;
+    border: none;
+    color: #0c0c0c;
+    padding: 10px ;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+  }
+ 
+
+
+/* Product Cards */
+.card-container {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+
+.Product_Card{
+  text-align: center;
+  align-items: center;
+  height: 300px;
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+  overflow: hidden;
+  background: rgba( 255, 255, 255, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+.Profile_Card {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  min-height: 200px;
+  max-width: 250px;
+  overflow: hidden;
+  background: rgba( 255, 255, 255, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid green;
+}
+.product_image {
+  width: 90%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.product_details {
+  padding: 20px;
+  color: #fff;
+}
+
+.product_details h2 {
+  margin: 0 0 10px;
+}
+
+.product_details p {
+  font-size: 14px;
+}
+
+.product_details button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(145deg, #456645, #2f442f);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.product_details button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .Product_Card {
+    width: 80%;
+  }
+}
+
+.Team{
+  height: 50px;
+    border: none;
+    background:  #94ed94;
+  color: white;
+  font-size: 16px;
+  margin: 10;
+  padding: 10;
+ align-items: center;
+ align-content: center;
+  max-width: 300px;
+}
+
+.product_cart{
+  display: flex;
+}

@@ -1,0 +1,154 @@
+[
+    {
+      "index": "01",
+      "name": "Banana",
+      "type": "Cavendish",
+      "variety": "Robusta",
+      "season": "Year-round",
+      "category": "Fruit",
+      "cost_per_kg": 20,
+      "img_url": "https://images.nationalgeographic.org/image/upload/v1638892037/EducationHub/photos/banana-bunches.jpg"
+    },
+    {
+      "index": "02",
+      "name": "Mango",
+      "type": "Alphonso",
+      "variety": "Kesar",
+      "season": "April to June",
+      "category": "Fruit",
+      "cost_per_kg": 150,
+      "img_url": "https://cdn.shopify.com/s/files/1/0751/8991/1874/products/image0.jpg"
+    },
+    {
+      "index": "03",
+      "name": "Pomegranate",
+      "type": "Bhagwa",
+      "variety": "Ganesh",
+      "season": "September to February",
+      "category": "Fruit",
+      "cost_per_kg": 80,
+      "img_url": "https://en.gaonconnection.com/wp-content/uploads/2021/08/pomegranate.jpg"
+    },
+    {
+      "index": "04",
+      "name": "Grapes",
+      "type": "Thompson Seedless",
+      "variety": "Sharad Seedless",
+      "season": "March to June",
+      "category": "Fruit",
+      "cost_per_kg": 100,
+      "img_url": "https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/green-grapes.jpg"
+    },
+    {
+      "index": "05",
+      "name": "Watermelon",
+      "type": "Sugar Baby",
+      "variety": "Sangria",
+      "season": "April to June",
+      "category": "Fruit",
+      "cost_per_kg": 20,
+      "img_url": "https://h2.commercev3.net/cdn.gurneys.com/images/800/76103.jpg"
+    },
+    {
+      "index": "06",
+      "name": "Papaya",
+      "type": "Red Lady",
+      "variety": "Pusa Dwarf",
+      "season": "Year-round",
+      "category": "Fruit",
+      "cost_per_kg": 35,
+      "img_url": "https://seed2plant.in/cdn/shop/products/papayaseeds_800x.jpg"
+    },
+    {
+      "index": "07",
+      "name": "Guava",
+      "type": "Lalit",
+      "variety": "Allahabad Safeda",
+      "season": "Year-round",
+      "category": "Fruit",
+      "cost_per_kg": 40,
+      "img_url": "https://images.meesho.com/images/products/132899406/zdn9t_512.webp"
+    },
+    {
+      "index": "08",
+      "name": "Tomato",
+      "type": "Cherry",
+      "variety": "Heirloom",
+      "season": "June to October",
+      "category": "Vegetable",
+      "cost_per_kg": 80,
+      "img_url": "https://post.healthline.com/wp-content/uploads/2020/09/AN313-Tomatoes-732x549-Thumb-732x549.jpg"
+    },
+    {
+      "index": "09",
+      "name": "Carrot",
+      "type": "Nantes",
+      "variety": "Purple Haze",
+      "season": "June to October",
+      "category": "Vegetable",
+      "cost_per_kg": 50,
+      "img_url": "https://ghk.h-cdn.co/assets/18/09/2048x1364/gallery-1519672422-carrots.jpg"
+    },
+    {
+      "index": "10",
+      "name": "Cucumber",
+      "type": "Armenian",
+      "variety": "Lemon",
+      "season": "June to October",
+      "category": "Vegetable",
+      "cost_per_kg": 60,
+      "img_url": "https://www.premierseedsdirect.com/wp-content/uploads/2022/06/image206421777.jpg"
+    },
+    {
+      "index": "11",
+      "name": "Spinach",
+      "type": "Savoy",
+      "variety": "Bloomsdale",
+      "season": "March to June, October to November",
+      "category": "Vegetable",
+      "cost_per_kg": 90,
+      "img_url": "https://cdn.shopify.com/s/files/1/1862/4989/products/SP776_450x.jpg"
+    },
+    {
+      "index": "12",
+      "name": "Broccoli",
+      "type": "Calabrese",
+      "variety": "Romanesco",
+      "season": "April to June, September to November",
+      "category": "Vegetable",
+      "cost_per_kg": 120,
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Broccoli_bunches.jpg/1200px-Broccoli_bunches.jpg"
+    },
+    {
+      "index": "13",
+      "name": "Bell Pepper",
+      "type": "Sweet",
+      "variety": "Mini",
+      "season": "June to October",
+      "category": "Vegetable",
+      "cost_per_kg": 70,
+      "img_url": "https://images.saymedia-content.com/.image/t_share/MTc0MTgxNTM0MzI3MTIxNDA0/bell-peppers-do-the-different-colors-really-taste-any-different.jpg"
+    },
+    {
+      "index": "14",
+      "name": "Eggplant",
+      "type": "Italian",
+      "variety": "Listada de Gandia",
+      "season": "July to October",
+      "category": "Vegetable",
+      "cost_per_kg": 100,
+      "img_url": "https://cdn.shopify.com/s/files/1/0273/5551/2875/products/brinjal_ppl_1200x1200.jpg"
+    },
+    {
+      "index": "15",
+      "name": "Zucchini",
+      "type": "Green",
+      "variety": "Black Beauty",
+      "season": "June to October",
+      "category": "Vegetable",
+      "cost_per_kg": 75,
+      "img_url": "https://specialtyproduce.com/sppics/1243.png"
+    }
+   
+]
+  
