@@ -1,6 +1,4 @@
 # Farmers_portal
-Finaly year Project
-
 Portal for Farmers to sell the produce at a better rate
 ## Problem statement in Description 
 - System that provides farmers an interface to sell their produce , and connect with the buyers all over India
