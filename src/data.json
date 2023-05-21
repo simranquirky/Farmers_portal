@@ -1,0 +1,32 @@
+[
+    {
+        "index" : "1",
+        "Cost per Kg" : "",
+        "Variety": "",
+        "Category": "Vegetable",
+        "img" : "https://cdn.shopify.com/s/files/1/0663/9613/files/Cabbage_ce1da987-7ae9-4e33-8f45-ffdc9c64e559_480x480.jpg",
+        "name": "Cabbage",
+        "description": "Winter Crop"
+    },
+    {
+        "img" : "https://www.agrifarming.in/wp-content/uploads/2020/08/carrot-551661_1920.jpg",
+        "name": "Carrot",
+        "description": "Winter Crop"
+    },
+    {
+        "img" : "https://images.tractorgyan.com/uploads/26140/6253d74a28e00_rabi-crop.jpg",
+        "name": "Wheat",
+        "description": "Winter Crop"
+    },
+    {
+        "img" : "https://www.apnikheti.com/upload/crops/3612idea992089idea99corn1-1024x818.jpg",
+        "name": "Maize",
+        "description": "Rabi Crop"
+    },
+    {
+        "img" : "https://www.agrifarming.in/wp-content/uploads/2020/08/guava-2934116_1920.jpg",
+        "name": "Guava",
+        "description": "Winter Fruit"
+    } 
+
+]
