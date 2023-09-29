@@ -16,12 +16,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Determine PR or issue
+        id: pr-or-issue
+        run: echo "::set-output name=type::${{ github.event_name == 'pull_request' ? 'PR' : 'issue' }}"
+
       - name: Comment on PR or issue
         id: comment
         run: |
-          message=":tada: Thank you for opening this ${{ github.event.issue.pull_request ? 'PR' : 'issue' }}! Your contribution is greatly appreciated. :rocket:\n\nKeep up the good work, and don't hesitate to open more! Let's make this project even better together. :muscle:"
+          message=":tada: Thank you for opening this ${{ steps.pr-or-issue.outputs.type }}! Your contribution is greatly appreciated. :rocket:\n\nKeep up the good work, and don't hesitate to open more! Let's make this project even better together. :muscle:"
           echo ::set-output name=message::"$message"
-      
+
       - name: Post comment
         uses: softprops/action-comment@v1
         with:
