@@ -1,0 +1,29 @@
+name: Thank and Encourage Contributors
+
+on:
+  issues:
+    types:
+      - opened
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  thank-and-encourage:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Comment on PR or issue
+        id: comment
+        run: |
+          message=":tada: Thank you for opening this ${{ github.event.issue.pull_request ? 'PR' : 'issue' }}! Your contribution is greatly appreciated. :rocket:\n\nKeep up the good work, and don't hesitate to open more! Let's make this project even better together. :muscle:"
+          echo ::set-output name=message::"$message"
+      
+      - name: Post comment
+        uses: softprops/action-comment@v1
+        with:
+          issue: ${{ github.event.issue.number }}
+          message: ${{ steps.comment.outputs.message }}
