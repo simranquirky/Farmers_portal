@@ -28,6 +28,8 @@ Your contributions can come in many forms:
 - **Regulatory Researchers**: Investigate government rules.
 - **Documentation Gurus**: Help us document the journey.
 
+  Check the entire contribution guidelines [here](https://github.com/simranquirky/Farmers_portal/blob/main/Contributing.md)
+
 ## 🌍 Who Benefits
 
 Contributions to this project empower:
