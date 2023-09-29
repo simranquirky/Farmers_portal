@@ -18,16 +18,28 @@ jobs:
 
       - name: Determine PR or issue
         id: pr-or-issue
-        run: echo "::set-output name=type::${{ github.event_name == 'pull_request' ? 'PR' : 'issue' }}"
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "::set-output name=type::PR"
+          else
+            echo "::set-output name=type::issue"
+          fi
 
       - name: Comment on PR or issue
         id: comment
         run: |
           message=":tada: Thank you for opening this ${{ steps.pr-or-issue.outputs.type }}! Your contribution is greatly appreciated. :rocket:\n\nKeep up the good work, and don't hesitate to open more! Let's make this project even better together. :muscle:"
-          echo ::set-output name=message::"$message"
+          echo "$message" > message.txt
 
       - name: Post comment
-        uses: softprops/action-comment@v1
+        uses: actions/github-script@0.10.5
         with:
-          issue: ${{ github.event.issue.number }}
-          message: ${{ steps.comment.outputs.message }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const message = require('fs').readFileSync('message.txt', 'utf-8');
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: message,
+            });
